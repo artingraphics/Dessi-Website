@@ -79,9 +79,20 @@ body {
 	margin-top: 1em;
 }
 
+.sidebar-links ul li:nth-child(3) {
+	margin-top: 3em;
+}
+
 .sidebar-links a {
 	text-decoration: none;
 	color: #505050;
+}
+
+.sidebar-links a:hover {
+	text-decoration: none;
+	color: #FF5B40;
+
+	transition: all 0.3s ease;
 }
 
 .main-body {

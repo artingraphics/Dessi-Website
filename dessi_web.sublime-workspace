@@ -83,7 +83,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1846,
+				"buffer_size": 1870,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -92,7 +92,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2974,
+				"buffer_size": 3129,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -216,6 +216,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2s",
+			"2",
 			"#89bdd3",
 			"#95EFCE",
 			"header",
@@ -301,15 +303,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1846,
+						"buffer_size": 1870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1021,
-								1021
+								1128,
+								1128
 							]
 						],
 						"settings":
@@ -319,10 +321,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 63.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -337,15 +339,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2974,
+						"buffer_size": 3129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1057,
-								1044
+								1371,
+								1371
 							]
 						],
 						"settings":
@@ -354,10 +356,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1011.0,
+						"translation.y": 1236.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -439,7 +441,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
