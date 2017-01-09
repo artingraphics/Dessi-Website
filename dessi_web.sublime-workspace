@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"u",
+				"uppercase"
+			],
+			[
 				"cl",
 				"clear"
 			],
@@ -83,7 +87,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1870,
+				"buffer_size": 1992,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -92,7 +96,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 3129,
+				"buffer_size": 3187,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -303,28 +307,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1870,
+						"buffer_size": 1992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1128,
-								1128
+								1189,
+								1189
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 110.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -339,15 +344,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3129,
+						"buffer_size": 3187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1371,
-								1371
+								2188,
+								2189
 							]
 						],
 						"settings":
@@ -356,10 +361,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1236.0,
+						"translation.y": 2171.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -441,7 +446,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
