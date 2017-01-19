@@ -201,7 +201,7 @@ body {
 
 /*Media Queries*/
 
-@media screen and (max-width: 64em) {
+/*@media screen and (max-width: 64em) {
 	.sidebar-links {
 	text-align: left;
 	margin-left: 0;
@@ -218,8 +218,6 @@ body {
 	font-family: 'Pontano Sans', sans-serif;
 	line-height: 1em;
 	font-size: 3em;
-	/*text-transform: uppercase;
-	letter-spacing: 0.2em;*/
 
 }
 
@@ -268,7 +266,7 @@ body {
 	letter-spacing: 0.2em;
 }
 
-}
+} */
 
 @media screen and (max-width: 90em) {
 	.main-body {
