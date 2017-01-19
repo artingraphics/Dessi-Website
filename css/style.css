@@ -65,7 +65,7 @@ body {
 .separator {
 /*	float: left;*/
 	width: 4em;
-	border-bottom: solid 2px #FF5B40;
+	border-bottom: solid 2px #FFD13D;
 }
 
 .sidebar-links ul {
@@ -93,7 +93,7 @@ body {
 
 .sidebar-links a:hover {
 	text-decoration: none;
-	color: #FF5B40;
+	color: #FFD13D;
 
 	transition: all 0.3s ease;
 }
@@ -105,7 +105,7 @@ body {
 	width: 60%;
 	margin-top: 2em;
 	margin-left: 2em;
-	color: #FF5B40;
+	color: #FFD13D;
 	font-size: 4em;
 	font-family: 'Cardo', serif;
 }
@@ -162,10 +162,10 @@ body {
 
 .resume a, .portfolio a {
 	text-transform: uppercase;
-	border: 2px solid #FF5B40;
+	border: 2px solid #FFD13D;
 	padding: 0.5em 1em;
 	text-decoration: none;
-	color: #FF5B40;
+	color: #FFD13D;
 	font-size: 1.4em;
 	font-family: 'Pathway Gothic One', sans-serif;
 	
@@ -173,12 +173,12 @@ body {
 }
 
  .resume a:hover {
-	background: #FF5B40;
+	background: #FFD13D;
 	color: #000;
 }
 
  .portfolio a:hover {
-	background: #FF5B40;
+	background: #FFD13D;
 	color: #000;
 }
 
@@ -196,4 +196,87 @@ body {
 	font-family: 'Inconsolata', monospace !important;
 	font-size: 0.8em;
 	text-align: center;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 64em) {
+	.sidebar-links {
+	text-align: left;
+	margin-left: 0;
+	margin-top: 6em;
+}
+
+	.quote-container h3 {
+	width: 80%;
+	margin-top: 0.6em;
+	margin-left: 0em;
+}
+
+.sidebar h1 {
+	font-family: 'Pontano Sans', sans-serif;
+	line-height: 1em;
+	font-size: 3em;
+	/*text-transform: uppercase;
+	letter-spacing: 0.2em;*/
+
+}
+
+.quote-container h4 {
+	margin-top: -1.4em;
+	margin-left: 0em;
+	font-size: 1.4em;
+}
+
+.quote-container h3:before {
+  content: "";
+  left: 30%;
+  top: 110%;
+  right: 0;
+  width: 50%;
+  border-top: 2px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-15deg);
+  -moz-transform:rotate(-15deg);
+  -ms-transform:rotate(-15deg);
+  -o-transform:rotate(-15deg);
+  transform:rotate(-15deg);
+}
+
+.quote-container img {
+	position: relative;
+	display: inline-block;
+	margin-top: -24em;
+	margin-left: 2em;
+	z-index: -2;
+	width: 90%;
+	clear: both;
+}
+
+.resume {
+	margin-top: 6em;
+	margin-left: 4em;
+	letter-spacing: 0.2em;
+	display: inline-block;
+}
+
+.portfolio {
+	display: inline-block;
+	margin-left: 1em;
+	letter-spacing: 0.2em;
+}
+
+}
+
+
+@media screen and (max-height: 48em) {
+
+	.sidebar-links {
+	text-align: left;
+	margin-left: 0;
+	margin-top: 20em;
+}
+
 }
