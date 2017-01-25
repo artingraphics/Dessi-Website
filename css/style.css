@@ -113,10 +113,10 @@ body {
 .quote-container h3:before {
   position: absolute;
   content: "";
-  left: 30%;
-  top: 95%;
+  left: 10%;
+  top: 120%;
   right: 0;
-  width: 110%;
+  width: 60%;
   border-top: 2px solid;
   border-color: inherit;
 
