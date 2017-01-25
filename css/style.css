@@ -50,7 +50,7 @@ body {
 .sidebar h1 {
 	font-family: 'Pontano Sans', sans-serif;
 	line-height: 1em;
-	font-size: 2em;
+	font-size: 3em;
 	/*text-transform: uppercase;
 	letter-spacing: 0.2em;*/
 
@@ -59,7 +59,7 @@ body {
 .sidebar-links {
 	text-align: left;
 	margin-left: 0;
-	margin-top: 30em;
+	margin-top: 6em;
 }
 
 .separator {
@@ -102,11 +102,11 @@ body {
 	margin-top: 4em;
 }
 .quote-container h3 {
-	width: 60%;
-	margin-top: 2em;
-	margin-left: 2em;
+	width: 80%;
+	margin-top: 0.6em;
+	margin-left: 0;
 	color: #FFD13D;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Cardo', serif;
 }
 
@@ -114,7 +114,7 @@ body {
   position: absolute;
   content: "";
   left: 30%;
-  top: 45%;
+  top: 95%;
   right: 0;
   width: 50%;
   border-top: 2px solid;
@@ -130,7 +130,7 @@ body {
 
 .quote-container h4 {
 	margin-top: -1.4em;
-	margin-left: 6em;
+	margin-left: 0;
 	color: #909090;
 	font-size: 1.4em;
 	font-family: 'Pathway Gothic One', sans-serif;
@@ -140,23 +140,21 @@ body {
 .quote-container img {
 	position: relative;
 	display: inline-block;
-	margin-top: -32em;
-	margin-left: 24em;
+	margin-top: -12em;
 	z-index: -2;
-	width: 55%;
+	width: 100%;
 	clear: both;
 }
 
 .resume {
 	margin-top: 8em;
-	margin-left: 26em;
+	margin-left: 6em;
 	letter-spacing: 0.2em;
-	display: inline-block;
 }
 
 .portfolio {
-	display: inline-block;
-	margin-left: 1em;
+	margin-top: 2em;
+	margin-left: 6em;
 	letter-spacing: 0.2em;
 }
 
@@ -189,6 +187,7 @@ body {
 .footer {
 	margin: auto;
 	margin-top: 4em;
+	margin-bottom: 2em;
 }
 
 .credits-name {
@@ -201,119 +200,72 @@ body {
 
 /*Media Queries*/
 
-/*@media screen and (max-width: 64em) {
+@media screen and (min-width: 64em) {
+
 	.sidebar-links {
 	text-align: left;
 	margin-left: 0;
-	margin-top: 6em;
-}
+	margin-top: 30em;
+	}
 
 	.quote-container h3 {
-	width: 80%;
-	margin-top: 0.6em;
-	margin-left: 0em;
-}
-
-.sidebar h1 {
-	font-family: 'Pontano Sans', sans-serif;
-	line-height: 1em;
-	font-size: 3em;
-
-}
-
-.quote-container h4 {
-	margin-top: -1.4em;
-	margin-left: 0em;
-	font-size: 1.4em;
-}
-
-.quote-container h3:before {
-  content: "";
-  left: 30%;
-  top: 110%;
-  right: 0;
-  width: 50%;
-  border-top: 2px solid;
-  border-color: inherit;
-
-  -webkit-transform:rotate(-15deg);
-  -moz-transform:rotate(-15deg);
-  -ms-transform:rotate(-15deg);
-  -o-transform:rotate(-15deg);
-  transform:rotate(-15deg);
-}
-
-.quote-container img {
-	position: relative;
-	display: inline-block;
-	margin-top: -24em;
+	width: 60%;
+	margin-top: 2em;
 	margin-left: 2em;
-	z-index: -2;
-	width: 90%;
-	clear: both;
-}
+	font-size: 4em;
+	}
 
-.resume {
-	margin-top: 6em;
-	margin-left: 4em;
-	letter-spacing: 0.2em;
-	display: inline-block;
-}
 
-.portfolio {
-	display: inline-block;
-	margin-left: 1em;
-	letter-spacing: 0.2em;
-}
+	.sidebar h1 {
+	line-height: 1em;
+	font-size: 2em;
 
-} */
+	}
 
-@media screen and (max-width: 90em) {
-	.main-body {
-	margin-top: 2em;
-}
-	.resume {
-	margin-top: 2em;
-	margin-left: 32em;
-	letter-spacing: 0.2em;
-	display: inline-block;
-}
+	.quote-container h3:before {
+ 	 position: absolute;
+ 	 content: "";
+  	left: 30%;
+  	top: 45%;
+  	right: 0;
+  	width: 50%;
+  	border-top: 2px solid;
+  	border-color: inherit;
 
-.quote-container img {
+  	-webkit-transform:rotate(-15deg);
+  	-moz-transform:rotate(-15deg);
+  	-ms-transform:rotate(-15deg);
+  	-o-transform:rotate(-15deg);
+  	transform:rotate(-15deg);
+	}
+
+	.quote-container h4 {
+	margin-top: -1.4em;
+	margin-left: 6em;
+	font-size: 1.4em;
+	}
+
+	.quote-container img {
 	position: relative;
 	display: inline-block;
-	margin-top: -28em;
+	margin-top: -32em;
 	margin-left: 24em;
 	z-index: -2;
 	width: 55%;
 	clear: both;
-}
+	}
 
-.quote-container h3:before {
-  content: "";
-  left: 30%;
-  top: 50%;
-  right: 0;
-  width: 50%;
-  border-top: 2px solid;
-  border-color: inherit;
+	.resume {
+	margin-top: 8em;
+	margin-left: 26em;
+	letter-spacing: 0.2em;
+	display: inline-block;
+	}
 
-  -webkit-transform:rotate(-15deg);
-  -moz-transform:rotate(-15deg);
-  -ms-transform:rotate(-15deg);
-  -o-transform:rotate(-15deg);
-  transform:rotate(-15deg);
-}
+	.portfolio {
+	display: inline-block;
+	margin-left: 1em;
+	letter-spacing: 0.2em;
+	}
 
-}
-
-@media screen and (max-height: 50em) {
-
-	.sidebar-links {
-	text-align: left;
-	margin-left: 0;
-	margin-top: 20em;
-}
-
-}
-
+	}
