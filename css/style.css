@@ -270,11 +270,11 @@ body {
 
 	}
 
-	@media 
-(-webkit-min-device-pixel-ratio: 2), 
+@media  	(-webkit-min-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
+
    .quote-container h3 {
-   	color: #123123
+   	color: #123123;
 	width: 60%;
 	margin-top: 2em;
 	margin-left: 2em;
