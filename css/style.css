@@ -65,7 +65,7 @@ body {
 .separator {
 /*	float: left;*/
 	width: 4em;
-	border-bottom: solid 2px #7f0140;
+	border-bottom: solid 2px #9b1658;
 }
 
 .sidebar-links ul {
@@ -93,7 +93,7 @@ body {
 
 .sidebar-links a:hover {
 	text-decoration: none;
-	color: #7f0140;
+	color: #9b1658;
 
 	transition: all 0.3s ease;
 }
@@ -105,7 +105,7 @@ body {
 	width: 80%;
 	margin-top: 0.6em;
 	margin-left: 0;
-	color: #7f0140;
+	color: #9b1658;
 	font-size: 3em;
 	font-family: 'Cardo', serif;
 }
@@ -161,10 +161,10 @@ body {
 .resume a, .portfolio a {
 	background: #000;
 	text-transform: uppercase;
-	/*border: 2px solid #7f0140;*/
+	/*border: 2px solid #9b1658;*/
 	padding: 0.5em 1em;
 	text-decoration: none;
-	color: #7f0140;
+	color: #9b1658;
 	font-size: 1.4em;
 	font-family: 'Pathway Gothic One', sans-serif;
 	
@@ -172,12 +172,12 @@ body {
 }
 
  .resume a:hover {
-	background: #7f0140;
+	background: #9b1658;
 	color: #000;
 }
 
  .portfolio a:hover {
-	background: #7f0140;
+	background: #9b1658;
 	color: #000;
 }
 
